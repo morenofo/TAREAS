@@ -10,15 +10,25 @@ import UIKit
 
 class MiCelda: UITableViewCell {
 
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
-    }
-
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
-    }
     
+    
+    
+    
+    
+    
+    
+    @IBOutlet weak var miImagen: UIImageView!
+    
+    @IBOutlet weak var miLabel: UILabel!
+//    override func awakeFromNib() {
+//        super.awakeFromNib()
+//        //miLabel.font = UIFont.boldSystemFont(ofSize: 20)
+//       
+//    }
+
+    
+        
+    
+
 }
+

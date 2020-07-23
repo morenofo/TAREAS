@@ -9,7 +9,10 @@
 import UIKit
 
 class MiCelda: UITableViewCell {
-
+    @IBOutlet weak var etiqueta1: UILabel!
+    @IBOutlet weak var imagen: UIImageView!
+   
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
